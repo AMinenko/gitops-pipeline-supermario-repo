@@ -1,16 +1,14 @@
 name: "Run SAST Scan on Supermarion Game project" 
 
 on:
-    push:
-        branches:
-            - main
+  push:
+    branches:
+      - main
 
 
 jobs:
-
   sonarqube_sast_scan:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v3
