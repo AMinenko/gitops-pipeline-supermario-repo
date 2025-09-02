@@ -1,0 +1,8 @@
+name: "Run SAST Scan on Supermarion Game project" 
+
+on:
+    push:
+        branches:
+            - main
+
+
